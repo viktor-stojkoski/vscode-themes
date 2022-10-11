@@ -14,6 +14,7 @@ name: $(BuildDefinitionName)_$(Year:yyyy).$(Month).$(DayOfMonth)$(Rev:.r)
 variables:
   - group: Access Tokens
   - name: marketplaceAccessToken
+    # Access Token is from Microsoft Account Directory (NOT Default Directory)
     value: $(marketplace)
 
 jobs:

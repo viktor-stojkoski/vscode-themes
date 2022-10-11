@@ -3,7 +3,7 @@
   "displayName": "Viktor Stojkoski Themes",
   "description": "Viktor Stojkoski Theme Package",
   "version": "1.0.0",
-  "publisher": "ViktorStojkoski",
+  "publisher": "Viktor-Stojkoski",
   "repository": {
     "type": "git",
     "url": "https://github.com/viktor-stojkoski/vscode-themes"

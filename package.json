@@ -12,9 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Github Andromeda Colorizer",
+        "label": "Github Andromeda Colorizer Bordered Italic",
         "uiTheme": "vs-dark",
-        "path": "./themes/Github Andromeda Colorizer-color-theme.json"
+        "path": "./themes/github-andromeda-colorizer-bordered-italic.json"
+      },
+      {
+        "label": "Github Andromeda Colorizer Bordered",
+        "uiTheme": "vs-dark",
+        "path": "./themes/github-andromeda-colorizer-bordered.json"
       }
     ]
   }

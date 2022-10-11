@@ -1,5 +1,5 @@
 {
-  "name": "GitHub Andromeda Colorizer",
+  "name": "GitHub Andromeda Colorizer Bordered",
   "colors": {
     "focusBorder": "#1f6feb",
     "foreground": "#c9d1d9",
@@ -433,13 +433,6 @@
       "scope": ["entity.other.inherited-class"],
       "settings": {
         "fontStyle": "underline"
-      }
-    },
-    {
-      "name": "Font Italic",
-      "scope": ["comment", "invalid", "keyword", "entity.other.attribute-name"],
-      "settings": {
-        "fontStyle": "italic"
       }
     }
   ]

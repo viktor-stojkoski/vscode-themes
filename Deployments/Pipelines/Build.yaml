@@ -26,5 +26,5 @@ jobs:
       - script: vsce package
         displayName: VSCE Package
 
-      - script: vsce publish -p "$(marketplaceAccessToken)"
+      - script: vsce publish -p $(marketplaceAccessToken)
         displayName: VSCE Publish

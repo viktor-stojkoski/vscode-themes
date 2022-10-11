@@ -1,0 +1,26 @@
+pool:
+  name: Azure Pipelines
+
+trigger: none
+
+pr: none
+
+name: $(BuildDefinitionName)_$(Year:yyyy).$(Month).$(DayOfMonth)$(Rev:.r)
+
+variables:
+  - group: Access Tokens
+  - name: marketplaceAccessToken
+    value: $(marketplace)
+
+jobs:
+  - job: job_build_pack_publish_themes
+    displayName: Build, Pack & Publish themes to marketplace
+    steps:
+      - script: npm install -g vsce
+        displayName: Install VSCE NPM Package
+
+      - script: vsce package
+        displayName: VSCE Package
+
+      - script: vsce publish -p $(marketplaceAccessToken)
+        displayName: VSCE Publish

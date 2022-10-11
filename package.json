@@ -3,6 +3,21 @@
   "displayName": "Viktor Stojkoski Themes",
   "description": "Viktor Stojkoski Theme Package",
   "version": "1.0.0",
+  "publisher": "ViktorStojkoski",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viktor-stojkoski/vscode-themes"
+  },
+  "keywords": [
+    "theme",
+    "github",
+    "andromeda",
+    "colorizer",
+    "viktor-stojkoski",
+    "viktor",
+    "stojkoski",
+    "ViktorStojkoski"
+  ],
   "engines": {
     "vscode": "^1.72.0"
   },

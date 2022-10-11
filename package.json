@@ -1,0 +1,21 @@
+{
+  "name": "viktor-stojkoski-themes",
+  "displayName": "Viktor Stojkoski Themes",
+  "description": "Viktor Stojkoski Theme Package",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Github Andromeda Colorizer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Github Andromeda Colorizer-color-theme.json"
+      }
+    ]
+  }
+}
